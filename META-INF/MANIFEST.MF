@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: StoryEditor
+Bundle-SymbolicName: io.hongstack.eclipse.StoryEditor;singleton:=true
+Bundle-Version: 0.0.1
+Bundle-Activator: io.hongstack.eclipse.storyeditor.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jface.text
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: io.hongstack.eclipse.StoryEditor
+Bundle-ActivationPolicy: lazy
+Export-Package: io.hongstack.eclipse.storyeditor
+Bundle-Vendor: hongstack.io (by Hong Li)
